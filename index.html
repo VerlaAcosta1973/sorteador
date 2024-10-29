@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <title>Sorteador</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sorteador dev</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
     <header>
-        <div>
-            <img class="logo" src="./assets/sort 1.png" alt="dado">
-            <h1>Sorteador</h1>
-        </div>
+      <div>
+        <img class="logo" src="./assets/sort 1.png" alt="dado" />
+        <h1>Sorteador</h1>
+      </div>
     </header>
-    
+
     <main>
-        <label>
-            Sortear entre: 
-            <input class="input-min" type="number" placeholder="0">
-        </label>
+      <label>
+        Sortear entre:
+        <input class="input-min" type="number" placeholder="0" />
+      </label>
 
-        <label>
-            e: 
-            <input class="input-max" type="number" placeholder="0">
-        </label>
+      <label>
+        e:
+        <input class="input-max" type="number" placeholder="0" />
+      </label>
 
-        <button onclick="generateNumber()">SORTEAR</button>
+      <button onclick="generateNumber()">SORTEAR</button>
 
-        <div class="drawn-number">
-            <p class="result">0000</p>
-        </div>
+      <div class="drawn-number">
+        <p class="result"></p>
+      </div>
     </main>
-</body>
-<script src="./scripts/script.js"></script>
+  </body>
+  <script src="./scripts/script.js"></script>
 </html>
